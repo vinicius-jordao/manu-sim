@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin-bottom: 0;
+    color: #305496;
+    font-size: 14px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 0;
+    color: #305496;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h5 {
+    font-size: 16px;
+}
+
+h6 {
+    font-size: 14px;
+}
+
+.form-control {
+    border: none;
+    border-radius: 0;
+    border-bottom: 2px solid #305496;
+}
+
+table.table thead tr th {
+    background-color: #8ea9db;
+    color: #305496;
+    font-size: 14px;
+    font-weight: 800;
+    padding: 4px 8px;
+    line-height: 1;
+}
+
+table.table tr td {
+    color: #305496;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 4px 8px;
+    line-height: 1.4;
+}
+
+/* header */
+
+header {
+    margin-top: 48px;
+}
+
+header .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* item */
+
+div.item .title {
+    display: flex;
+    justify-content: space-between;
+    background-color: #8ea9db;
+    padding: 4px 8px;
+}
+
+div.item .title h6 {
+    color: #fff;
+}
